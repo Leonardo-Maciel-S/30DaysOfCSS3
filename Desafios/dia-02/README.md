@@ -2,7 +2,7 @@
 
 ## Resultado
 
-![alt text](loading.gif)
+![imagem do resultado](loading.gif)
 
 ## Meu relato
 
