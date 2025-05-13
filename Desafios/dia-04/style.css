@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #fff;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 600px;
+}
+
+button {
+  padding: 10px 20px;
+
+  font-size: 1.5rem;
+  color: rgb(247, 208, 182);
+
+  border: 4px solid rgb(247, 208, 182);
+
+  cursor: pointer;
+}
+
+.before,
+.after {
+  height: 20px;
+
+  font-size: 16px;
+  padding: 0 10px;
+
+  position: relative;
+
+  z-index: 2;
+
+  background-color: #333;
+
+  transform: rotate(-20deg);
+
+  transition: all 500ms linear;
+}
+
+.before {
+  right: -8%;
+  top: -30px;
+}
+
+.after {
+  left: -8%;
+  bottom: -30px;
+}
+
+section:hover .before {
+  transform: translate(230px) rotate(-20deg);
+}
+
+section:hover .after {
+  transform: translate(-230px) rotate(-20deg);
+}
