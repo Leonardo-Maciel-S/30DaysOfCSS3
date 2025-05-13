@@ -6,7 +6,7 @@
 
 Buscando aprimorar minhas habilidades em CSS3 acabei encontrando esse repositório da
 [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS) falando sobre esses desafios
-e decidi entrar no jogo
+e decidi entrar no jogo.
 
 ## Objetivos
 
@@ -14,9 +14,13 @@ Aprender o máximo de coisa novas e reforçar conhecimentos bases do CSS, melhor
 
 ## Meus arquivos
 
-Dentro da pasta **Desafios** vou separar cada desafio em pastas nomeadas com o dia do mesmo.
+Dentro da pasta **Desafios** vou separar cada desafio em pastas nomeadas com o dia do mesmo e um readme com o resultado em cada pasta.
 
-## Desafios
+---
+
+# Exemplos dos Desafios
+
+> Daqui pra frente não é meu.
 
 Separados por dia, a seguir mostra como cada um deve ser.
 
