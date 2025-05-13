@@ -92,7 +92,7 @@ Separados por dia, a seguir mostra como cada um deve ser.
 
 ## Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 
-<img src="Desafios/dia 03/gif/dia03.gif">
+<img src="github.com/MilenaCarecho/30diasDeCSS/blob/master/Desafios/dia%2003/gif/dia03.gif">
 
 [Meu código](https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2003)
 

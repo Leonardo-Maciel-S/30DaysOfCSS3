@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #fff;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 600px;
+}
+
+div {
+  font-size: 5rem;
+  overflow: hidden;
+  text-wrap: nowrap;
+
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@keyframes slideRed {
+  0% {
+    transform: translate(70%);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+@keyframes slideGreen {
+  0% {
+    transform: translate(35%);
+  }
+
+  100% {
+    transform: translate(-135%);
+  }
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-red span {
+  animation: slideRed 12s linear infinite;
+  color: yellow;
+  background-color: transparent;
+}
+
+.bg-green {
+  background-color: rgb(105, 207, 9);
+}
+.bg-green span {
+  animation: slideGreen 12s linear infinite;
+  color: black;
+  background-color: transparent;
+}

@@ -30,7 +30,7 @@ div {
 
   position: absolute;
 
-  animation: teste 1.5s linear infinite;
+  animation: rotation 1.5s linear infinite;
 }
 
 span {
@@ -38,7 +38,7 @@ span {
   font-size: 2rem;
 }
 
-@keyframes teste {
+@keyframes rotation {
   0% {
     transform: rotate(0deg);
   }
