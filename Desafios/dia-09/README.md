@@ -14,4 +14,13 @@ Fiquei muito alegre com esse resultado.
 
 ## Aprendizado
 
+Aprendi a mudar o ponto de referencia da animação, nesse caso precisei fazer uma rotação do objeto para fazer o efeito de balançar.
+
+Porem se tivesse deixado o transform-origin padrão que é **center** não funcionaria da forma que queremos e por isso precisei mudar para top.
+
 ### O que reforcei
+
+1. **Keyframes**
+1. **Transform**
+1. **Rotation**
+1. **Animation**
