@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  background-color: #034d3b;
+}
+
+section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  transition: all 300ms linear;
+}
+
+span {
+  color: #fff;
+
+  font-size: 5rem;
+  font-weight: 900;
+
+  letter-spacing: 15px;
+
+  transition: transform 600ms linear, filter 600ms linear 0.2s,
+    opacity 600ms linear 0.1s;
+}
+
+section:hover span {
+  transform: translate3d(40px, -120px, 0px) rotate(60deg);
+  filter: blur(40px);
+  opacity: 0;
+}
+
+section :nth-child(2) {
+  transition-delay: 0.3s;
+}
+
+section :nth-child(3) {
+  transition-delay: 0.5s;
+}
+
+section :nth-child(4) {
+  transition-delay: 0.7s;
+}
+
+section :nth-child(5) {
+  transition-delay: 0.9s;
+}
