@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  background-color: #08001e;
+}
+
+section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  transition: all 300ms linear;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: #166eb9;
+
+  border-radius: 15px;
+
+  transform-style: preserve-3d;
+
+  animation: rotates 3s linear infinite;
+}
+
+@keyframes rotates {
+  from {
+    transform: perspective(300px) rotate3d(0, 0, 0, 0);
+  }
+
+  50% {
+    transform: perspective(300px) rotate3d(0, 1, 0, 180deg);
+  }
+
+  to {
+    transform: perspective(300px) rotate3d(0, 0, 1, 180deg);
+  }
+}
